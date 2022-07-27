@@ -1,5 +1,6 @@
 # AdverseDrugEventPipeline
-> Improving Understandability of Drug Safety Data through Data Mining Techniques and Interactive Digital Platform 
+> Improving Understandability of Drug Safety Data. Design Principles for Drug Safety Dashboards
+
 
 ## Table of contents
 * [General info](#general-info)
