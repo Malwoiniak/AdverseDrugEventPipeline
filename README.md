@@ -1,6 +1,8 @@
 # AdverseDrugEventPipeline
 
-> Drug Side Effect Checker - a Pharmacovigilance Dashboard Prototype for MSc thesis "Improving Understandability of Drug Safety Data. Design Principles for Drug Safety Dashboards" available at [link_to_thesis]
+> Drug Side Effect Checker - The Pharmacovigilance Dashboard Prototype
+> 
+> Developed for MSc thesis "Improving Understandability of Drug Safety Data. Design Principles for Drug Safety Dashboards" available at [link_to_thesis]
 
 ## Table of contents
 * [General info](#general-info)
