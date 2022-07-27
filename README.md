@@ -79,6 +79,7 @@ Below you can find example visualisations of drug safety data in the dashboard p
 <h3> General info </h3>
 There are two scripts in this project: API_Drug_Data_Extract.ipynb & DPA_Scraper.ipynb. Run DPA_Scraper.ipynb first.
 
+<h3> DPA Scraper </h3>
 DPA_Scraper.ipynb retrieves DPA analysis (drug safety signal as either related or unrelated) from [VigilApp](https://openvigil.pharmacology.uni-kiel.de/openvigilfda.php#) for drugs + side effects.
 
 All necessary dirs will be created by the script. File 'events.xlsx' [in here](required_excel_files/events.xlsx) must be placed in script directory. It contains drugs + their most common side effects (obtained from VigilApp by querying for drug name in basic data extraction or counting). File 'references.xlsx' must be placed in script directory [in here](required_excel_files/references.xlsx). 
@@ -87,11 +88,29 @@ Script outputs:
 - .xlsx file with DPA analysis per drug+side effect in DA directory
 - file 'events_signals.xlsx' in script directory. It contains drug safety signal information (related/unrelated). <b>This file is required for API_Drug_Data_Extract.ipynb run </b>
 
+<h3> API Drug Data Extractor </h3>
+API_Drug_Data_Extract.ipynb queries API to get all demographic data (per drug + secondary effect) visualised in the dashboard. 
 
+All necessary dirs will be created by the script. File 'events_signals.xlsx' [in here](required_excel_files/events_signals.xlsx) must be placed in script directory. <b> This file is created with DPA_Scraper.ipynb run. </b> Exemplary 'events_signals.xlsx' file can be found in dir /required_excel_files
+
+Other mandatory files (in script dir):
+- country_codes.xlsx
+- demo.xlsx
+- df_empty_template.xlsx
+- references.xlsx
+- reporter_type.xlsx
+- serious.xlsx
+- signal_df.xlsx
+- years.xlsx
+
+These files can be found in dir /required_excel_files. They are either providing interpretation for FDA database codes or serve as DataFrame templates.
+
+Script outputs:
+- demographic data on drugs + side effects (as in events_signals.xlsx) in demo directory
 
 ## Status
 Project is _in progress_. TODO: 
-- [ ] Rewrite Readme
+- [x] Rewrite Readme
 - [x] Add .xlsx files
 
 ## Contact
