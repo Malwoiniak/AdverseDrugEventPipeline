@@ -27,7 +27,7 @@
 ## Status
 Project is _in progress_. TODO: 
 - [ ] Rewrite Readme
-- [ ] Add .xlsx files
+- [x] Add .xlsx files
 
 ## Contact
 Created by Malwina Kotowicz and Claudio Pires - feel free to contact us!
