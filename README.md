@@ -16,11 +16,21 @@
 
 
 ## Illustrations
+Below you can find example visualisations of drug safety data in the dashboard prototype.
 
+<h4> General Overview of Drug Safety Profile </h4>
+
+![Dashboard1](img/dashboard1.png)
+
+<h4> Selected in-depth analysis for a selected drug and one selected side effect </h4>
+
+![Dashboard2](img/dashboard2.png)
 
 ## Technologies
-* Python 3.7
-* ...
+* Python 3.8.12
+* Pandas 1.3.4
+* Selenium 4.0
+* BeautifulSoup4 4.7.1
 
 ## Setup
 
@@ -30,4 +40,4 @@ Project is _in progress_. TODO:
 - [x] Add .xlsx files
 
 ## Contact
-Created by Malwina Kotowicz and Claudio Pires - feel free to contact us!
+Created by Malwina Kotowicz (mailto:m_kotowicz@hotmail.com) and Cláudio Pires (mailto:claudiofmpires@gmail.com ) - feel free to contact us!
