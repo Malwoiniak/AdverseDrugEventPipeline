@@ -1,6 +1,6 @@
 # AdverseDrugEventPipeline
-> Improving Understandability of Drug Safety Data. Design Principles for Drug Safety Dashboards
 
+> Drug Side Effect Checker - a Pharmacovigilance Dashboard Prototype for MSc thesis "Improving Understandability of Drug Safety Data. Design Principles for Drug Safety Dashboards" available at [link_to_thesis]
 
 ## Table of contents
 * [General info](#general-info)
