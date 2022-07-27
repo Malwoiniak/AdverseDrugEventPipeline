@@ -55,6 +55,9 @@ Events are pre-evaluated as either <b>potentially</b> Related or Unrelated to a 
 <br> </br>
 Link to the final prototype developed in this project using Tableau: [Prototype](https://public.tableau.com/app/profile/cl.udio.pires4914/viz/DrugSideEffectChecker/DrugSideEffectChecker)
 
+<h3> What does this code do? </h3>
+See "Setup" section.
+
 ## Illustrations
 Below you can find example visualisations of drug safety data in the dashboard prototype.
 
@@ -73,6 +76,18 @@ Below you can find example visualisations of drug safety data in the dashboard p
 * BeautifulSoup4 4.7.1
 
 ## Setup
+<h3> General info </h3>
+There are two scripts in this project: API_Drug_Data_Extract.ipynb & DPA_Scraper.ipynb. Run DPA_Scraper.ipynb first.
+
+DPA_Scraper.ipynb retrieves DPA analysis (drug safety signal as either related or unrelated) from [VigilApp](https://openvigil.pharmacology.uni-kiel.de/openvigilfda.php#) for drugs + side effects.
+
+All necessary dirs will be created by the script. File 'events.xlsx' [in here](required_excel_files/events.xlsx) must be placed in script directory. It contains drugs + their most common side effects (obtained from VigilApp by querying for drug name in basic data extraction or counting). File 'references.xlsx' must be placed in script directory [in here](required_excel_files/references.xlsx). 
+
+Script outputs: 
+- .xlsx file with DPA analysis per drug+side effect in DA directory
+- file 'events_signals.xlsx' in script directory. It contains drug safety signal information (related/unrelated). <b>This file is required for API_Drug_Data_Extract.ipynb run </b>
+
+
 
 ## Status
 Project is _in progress_. TODO: 
