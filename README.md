@@ -23,9 +23,8 @@
 
 ## Status
 Project is _in progress_. TODO: 
-- [ ] X
-- [ ] Y
-- [ ] Z
+- [ ] Rewrite Readme
+- [ ] Add .xlsx files
 
 ## Contact
-Created by [@mal](https://www.linkedin.com/in/malwina-kotowicz/) and ... - feel free to contact us!
+Created by Malwina Kotowicz and Claudio Pires - feel free to contact us!
