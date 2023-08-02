@@ -69,6 +69,8 @@ Below you can find example visualisations of drug safety data in the dashboard p
 
 ![Dashboard2](img/dashboard2.png)
 
+![Dashboard3](img/dashboard3.png)
+
 ## Technologies
 * Python 3.8.12
 * Pandas 1.3.4
@@ -113,7 +115,7 @@ Script outputs:
 - demographic data on drugs + side effects (as in events_signals.xlsx) in demo directory
 
 ## Status
-Project is _in progress_. TODO: 
+Project is _finished_. TODO: 
 - [x] Rewrite Readme
 - [x] Add .xlsx files
 
